@@ -31,9 +31,9 @@ export default function BlogPost() {
     .catch(console.error); 
   }, [slug])
 
-  useEffect(() => {
-    document.title = `Reading | ${blogpost.title}`
-  }, [slug])
+  // useEffect(() => {
+  //   document.title = `Reading | ${blogpost.title}`
+  // }, [slug])
   
   return (
     <>
